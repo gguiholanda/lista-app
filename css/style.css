@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+ 
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+ 
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 55px;
+    background-color: #ddd;
+ 
+}
+ 
+.list {
+ 
+ 
+    height: 100%;
+    padding: 50px;
+    margin: 100px auto;
+    margin-left: 100px;
+    width: 60%;
+   
+}
+img {
+    width: 100%;
+ 
+}
+ 
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+
+}
+.image {
+    width: 60px;
+    margin-right: 5px;
+ 
+}
+header {
+    display: flex;
+    margin-bottom: 10px;  
+}
+ 
+form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+ 
+   
+   
+}
+input[type="text"],
+input[type="date"],
+input[type="submit"],
+select
+{
+    border-radius: 20px;
+    padding: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 2px solid #810808;
+    color: #850a0a;
+    justify-content: space-between;
+
+ 
+}
+ 
+ 
+ 
+.btnAdd {
+    color: #80160e;
+    border: 2px solid #7c0b0b;
+}
+ 
+table {
+    margin-left: 10px;
+    width: 100%;
+    text-align: center;
+}
+ 
+ 
+ 
+th {
+ 
+    padding: 8px 0;
+}
+td {
+ 
+    border-bottom: 2px solid #8a0e0e;
+    padding: 8px 0;
+}
+tr:first-child {
+    text-align: center;
+    box-shadow: 0px 1px #770404;
+}
+ 
+tr td:last-child,
+tr td:nth-last-child(2) {
+    text-align: center;
+   
+}
+ 
+.btnEdit {
+   background-color: #ddd;
+   color: #830d0d;
+   border: none;
+ 
+}
+ 
+.btnDelete {
+    background-color: #ddd;
+    color: rgb(0, 0, 0);
+    border: none;
+ 
+}
